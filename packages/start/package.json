@@ -1,6 +1,7 @@
 {
-  "name": "@solidjs/start",
-  "version": "2.0.0-alpha.3",
+  "name": "@haberdasher-app/solid-start",
+  "version": "2.0.0-alpha.3-haberdasher.1",
+  "files": ["dist", "env.d.ts"],
   "type": "module",
   "scripts": {
     "build": "pnpm validate-imports && tsc && node scripts/build.js",
